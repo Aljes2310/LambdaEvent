@@ -25,4 +25,4 @@ def lambda_handler(event, context):
     preference_response = payment_response["response"]
 
     return { "statusCode": 200, 
-        "body": json.dumps(preference_response["response"]),}
+        "body": json.dumps(preference_response),}
